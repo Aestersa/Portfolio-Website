@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d650de55cf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo">Borys Kaminskyi</div>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="#languages"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Languages</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#projects"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li class="nav__link">
+            <a href="mailto:borya.kaminskiy@gmail.com" class="nav__link--anchor nav__link--anchor-primary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="flex-1 flex">
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            <figure class="about-me__picture--mask">
+              <img
+                class="about-me__picture"
+                src="./assets/me.jpg"
+                alt="Picture of me"
+              />
+            </figure>
+            <h1 class="about-me__info--title">
+              Hey! I'm <span class="text--purple">Borys Kaminskyi</span>&nbsp;<span class="wave">👋</span>
+            </h1>
+            <p class="about-me__info--para">
+              I'm a
+              <strong class="text--purple">junior fullstack developer</strong>
+              with a strong passion for building responsive and performant web
+              applications with great user experiences that positively impacts
+              the world.
+            </p>
+            <div class="about-me__links">
+              <a class="about-me__link" href="https://www.linkedin.com/in/borys-kaminskyi-5a1802216/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a class="about-me__link" href="https://github.com/Aestersa" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a class="about-me__link" href="mailto:borya.kaminskiy@gmail.com" target="_blank">
+                <i class="far fa-envelope"></i>
+              </a>
+              <a class="about-me__link" href="" target="_blank">
+                <i class="fa-solid fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+          <figure class="about-me__img--container">
+            <img
+              class="about-me__img"
+              src="./assets/undraw_websites.svg"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            This is my <span class="text--purple">technology stack</span>
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img-wrapper">
+                <img
+                  class="language__img"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  alt="html"
+                />
+              </figure>
+              <span class="language__name">HTML</span>
+            </div>
+            <div class="language">
+              <figure class="language__img-wrapper">
+                <img
+                  class="language__img"
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  alt="css"
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__img-wrapper">
+                <img
+                  class="language__img"
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  alt="javascript"
+                />
+              </figure>
+              <span class="language__name">Java Script</span>
+            </div>
+            <div class="language">
+              <figure class="language__img-wrapper">
+                <img
+                  class="language__img"
+                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                  alt="react"
+                />
+              </figure>
+              <span class="language__name">React</span>
+            </div>
+            <div class="language">
+              <figure class="language__img-wrapper">
+                <img
+                  class="language__img"
+                  src="https://iconape.com/wp-content/png_logo_vector/node-js-2.png"
+                  alt="nodejs"
+                />
+              </figure>
+              <span class="language__name">Node.js</span>
+            </div>
+            <div class="language">
+              <figure class="language__img-wrapper">
+                <img
+                  class="language__img"
+                  src="https://www.postgresql.org/media/img/about/press/elephant.png"
+                  alt="sql"
+                />
+              </figure>
+              <span class="language__name">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="text--purple">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/storeifyy.png"
+                  class="project__img"
+                  alt="Smart Brain"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Storeify</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, React, NextJS, Sanity
+                    <p class="project__description--para">
+                      E-commerce shop made with Stripe integration, to cover real time payments.
+                      In this project i used best React practises, such as Hooks & Refs and React Context Api.
+                      I also applied file-based routing and data fetching with NextJS. All data storage is managed by Sanity.
+                    </p>
+                    <div class="project__description--links">
+                      <a
+                        class="project__description--link"
+                        target="_blank"
+                        href="https://github.com/Aestersa/storeify"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a
+                        class="project__description--link"
+                        target="_blank"
+                        href="https://storeify.vercel.app/"
+                      >
+                        <i class="fas fa-link"></i>
+                      </a>
+                    </div>
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/krypt2.png"
+                  class="project__img"
+                  alt="Smart Brain"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Krypt</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, Tailwind CSS, JavaScript, React, Vite, Solidity
+                    <p class="project__description--para">
+                      This Web 3.0 project gives you possibility to send Ethereum through the blockchain network.
+                      It interacts with smart contract written in Solidity and Metamask to cover the transactions.
+                      Project was built with Vite FrontEnd Tool, React and Tailwind CSS.
+                      
+                    </p>
+                    <div class="project__description--links">
+                      <a
+                        class="project__description--link"
+                        target="_blank"
+                        href="https://github.com/Aestersa/Krypt"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a
+                        class="project__description--link"
+                        target="_blank"
+                        href="http://kryptswap.online/"
+                      >
+                        <i class="fas fa-link"></i>
+                      </a>
+                    </div>
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/smartbrain.png"
+                  class="project__img"
+                  alt="Smart Brain"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Smart Brain</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, React, NodeJS, PostgreSQL, Express, KnexJS
+                    <p class="project__description--para">
+                      This Smart Brain can detect faces on your images. Give it a try! 
+                      It was build with Clarifai API. App is also integrated with a database which
+                       uses bcrypt to hash and keep secure passwords of users. Server was made with NodeJS.
+                    </p>
+                    <div class="project__description--links">
+                      <a
+                        class="project__description--link"
+                        target="_blank"
+                        href="https://github.com/Aestersa/smart-brain-frontend"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a
+                        class="project__description--link"
+                        target="_blank"
+                        href="https://smart-brain-frontend967.herokuapp.com/"
+                      >
+                        <i class="fas fa-link"></i>
+                      </a>
+                    </div>
+                  </h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img class="footer__logo--img" src="./assets/logo.png" alt="" />
+          </figure>
+          <span class="footer__logo--popper">
+              Top
+              <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://github.com/Aestersa"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/borys-kaminskyi-5a1802216/"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:borya.kaminskiy@gmail.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="#"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+      <div class="footer__copyright">Copyright © 2022 Borys Kaminskyi</div>
+      </div>
+    </footer>
+  </body>
+</html>
